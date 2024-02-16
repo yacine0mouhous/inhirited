@@ -18,22 +18,13 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: Scaffold(
-        body: Column(
-          children: [
-            SizedBox(
+        body: ElevatedButton(
+            onPressed: () {},
+            child: Container(
               height: 100,
-            ),
-            Center(
-              child: Container(
-                  height: 200,
-                  width: 200,
-                  child: const Image(
-                    image: NetworkImage(
-                        'https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/flutter-logo-5086DD11C5-seeklogo.com.png'),
-                  )),
-            ),
-          ],
-        ),
+              width: 100,
+              color: Colors.amberAccent,
+            )),
       ),
     );
   }

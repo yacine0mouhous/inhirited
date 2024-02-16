@@ -18,13 +18,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: Scaffold(
-        body: ElevatedButton(
-            onPressed: () {},
-            child: Container(
-              height: 100,
-              width: 100,
-              color: Colors.amberAccent,
-            )),
+        body: Center(child: Text("v2")),
       ),
     );
   }
